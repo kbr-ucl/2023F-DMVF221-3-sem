@@ -1,5 +1,5 @@
 # 2023F-DMVF221-3-sem-Tools
-Datamatiker - Vejle - 3. semester - Forår2023 - Tools
+Datamatiker - Vejle - 3. semester - Forår 2023 - Tools
 
 ## Visual Studio
 - Visual Studio 2022
@@ -14,7 +14,14 @@ Datamatiker - Vejle - 3. semester - Forår2023 - Tools
 	- [Git Extensions](https://github.com/gitextensions/gitextensions)
 	- [Git Extensions 4.0 Manual](https://git-extensions-documentation.readthedocs.io/en/release-4.0/index.html)
 
-
 ## Azure
 - [Azure](https://portal.azure.com/#home)
 - [Education](https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/overview)
+
+## Docker desktop
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Install on Windows](https://docs.docker.com/desktop/install/windows-install/)
+
+## Sql Server
+- [Som Windows installation](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+- [Som Docker image](https://hub.docker.com/_/microsoft-mssql-server)
