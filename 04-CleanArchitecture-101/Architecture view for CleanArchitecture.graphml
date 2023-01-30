@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by yFiles WPF 3.4.0.0-->
+<graphml xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:ywpf="http://www.yworks.com/xml/yfiles-wpf/3.0/xaml" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.wpf/3.0/ygraphml.xsd " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="d0" attr.type="boolean" attr.name="Expanded" for="node" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+    <default>true</default>
+  </key>
+  <key id="d1" attr.type="string" attr.name="type" for="node" />
+  <key id="d2" attr.type="string" attr.name="path" for="node" />
+  <key id="d3" attr.type="string" attr.name="display_name" for="node" />
+  <key id="d4" attr.name="NodeLabels" for="node" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels" />
+  <key id="d5" attr.name="NodeGeometry" for="node" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry" />
+  <key id="d6" attr.name="UserTags" for="all" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags" />
+  <key id="d7" attr.name="NodeStyle" for="node" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle" />
+  <key id="d8" attr.name="NodeViewState" for="node" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState" />
+  <key id="d9" attr.type="string" attr.name="dependency_type" for="edge" />
+  <key id="d10" attr.name="EdgeLabels" for="edge" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels" />
+  <key id="d11" attr.name="EdgeGeometry" for="edge" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry" />
+  <key id="d12" attr.name="EdgeStyle" for="edge" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle" />
+  <key id="d13" attr.name="EdgeViewState" for="edge" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState" />
+  <key id="d14" attr.name="PortLabels" for="port" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels" />
+  <key id="d15" attr.name="PortLocationParameter" for="port" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+    <default />
+  </key>
+  <key id="d16" attr.name="PortStyle" for="port" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+    <default>
+      <x:Static Member="y:VoidPortStyle.Instance" />
+    </default>
+  </key>
+  <key id="d17" attr.name="PortViewState" for="port" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState" />
+  <key id="d18" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData" />
+  <data key="d18">
+    <y:SharedData />
+  </data>
+  <graph id="G">
+    <node id="n0">
+      <data key="d1"><![CDATA[0]]></data>
+      <data key="d2"><![CDATA[C:\Dropbox\SourceCode\2023F-DMVF221-3-sem\04-CleanArchitecture-101\CleanArchitecture.Application]]></data>
+      <data key="d3"><![CDATA[CleanArchitecture.Application]]></data>
+      <data key="d4" />
+      <data key="d5">
+        <y:RectD X="10" Y="-220" Width="492" Height="90" />
+      </data>
+      <data key="d6" />
+      <data key="d7" />
+      <port name="p0">
+        <data key="d15" />
+      </port>
+      <port name="p1">
+        <data key="d15" />
+      </port>
+    </node>
+    <node id="n1">
+      <data key="d1"><![CDATA[0]]></data>
+      <data key="d2"><![CDATA[C:\Dropbox\SourceCode\2023F-DMVF221-3-sem\04-CleanArchitecture-101\CleanArchitecture.Domain.Test]]></data>
+      <data key="d3"><![CDATA[CleanArchitecture.Domain.Test]]></data>
+      <data key="d4" />
+      <data key="d5">
+        <y:RectD X="532" Y="-220" Width="503" Height="90" />
+      </data>
+      <data key="d6" />
+      <data key="d7" />
+      <port name="p0">
+        <data key="d15" />
+      </port>
+    </node>
+    <node id="n2">
+      <data key="d1"><![CDATA[0]]></data>
+      <data key="d2"><![CDATA[C:\Dropbox\SourceCode\2023F-DMVF221-3-sem\04-CleanArchitecture-101\CleanArchitecture.Domain]]></data>
+      <data key="d3"><![CDATA[CleanArchitecture.Domain]]></data>
+      <data key="d4" />
+      <data key="d5">
+        <y:RectD X="560.5" Y="-350" Width="446" Height="90" />
+      </data>
+      <data key="d6" />
+      <data key="d7" />
+      <port name="p0">
+        <data key="d15" />
+      </port>
+      <port name="p1">
+        <data key="d15" />
+      </port>
+      <port name="p2">
+        <data key="d15" />
+      </port>
+    </node>
+    <node id="n3">
+      <data key="d1"><![CDATA[0]]></data>
+      <data key="d2"><![CDATA[C:\Dropbox\SourceCode\2023F-DMVF221-3-sem\04-CleanArchitecture-101\CleanArchitecture.Infrastructure]]></data>
+      <data key="d3"><![CDATA[CleanArchitecture.Infrastructure]]></data>
+      <data key="d4" />
+      <data key="d5">
+        <y:RectD X="326.125" Y="-90" Width="519" Height="90" />
+      </data>
+      <data key="d6" />
+      <data key="d7" />
+      <port name="p0">
+        <data key="d15" />
+      </port>
+      <port name="p1">
+        <data key="d15" />
+      </port>
+    </node>
+    <edge id="e0" source="n0" target="n2" sourceport="p0" targetport="p0">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d6" />
+    </edge>
+    <edge id="e1" source="n1" target="n2" sourceport="p0" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d12" />
+      <data key="d6" />
+    </edge>
+    <edge id="e2" source="n3" target="n0" sourceport="p0" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d6" />
+    </edge>
+    <edge id="e3" source="n3" target="n2" sourceport="p1" targetport="p2">
+      <data key="d9"><![CDATA[Transitive]]></data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d6" />
+    </edge>
+  </graph>
+</graphml>
