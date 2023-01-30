@@ -38,7 +38,7 @@
       <data key="d3"><![CDATA[CleanArchitecture.Application]]></data>
       <data key="d4" />
       <data key="d5">
-        <y:RectD X="10" Y="-220" Width="492" Height="90" />
+        <y:RectD X="78.25" Y="-513" Width="492" Height="90" />
       </data>
       <data key="d6" />
       <data key="d7" />
@@ -55,7 +55,7 @@
       <data key="d3"><![CDATA[CleanArchitecture.Domain.Test]]></data>
       <data key="d4" />
       <data key="d5">
-        <y:RectD X="532" Y="-220" Width="503" Height="90" />
+        <y:RectD X="552" Y="-154" Width="503" Height="90" />
       </data>
       <data key="d6" />
       <data key="d7" />
@@ -69,7 +69,7 @@
       <data key="d3"><![CDATA[CleanArchitecture.Domain]]></data>
       <data key="d4" />
       <data key="d5">
-        <y:RectD X="560.5" Y="-350" Width="446" Height="90" />
+        <y:RectD X="180.75" Y="-296" Width="446" Height="90" />
       </data>
       <data key="d6" />
       <data key="d7" />
@@ -89,7 +89,7 @@
       <data key="d3"><![CDATA[CleanArchitecture.Infrastructure]]></data>
       <data key="d4" />
       <data key="d5">
-        <y:RectD X="326.125" Y="-90" Width="519" Height="90" />
+        <y:RectD X="60.875" Y="-41.5" Width="519" Height="90" />
       </data>
       <data key="d6" />
       <data key="d7" />
@@ -102,7 +102,6 @@
     </node>
     <edge id="e0" source="n0" target="n2" sourceport="p0" targetport="p0">
       <data key="d9"><![CDATA[Direct]]></data>
-      <data key="d11" />
       <data key="d12" />
       <data key="d6" />
     </edge>
@@ -113,13 +112,11 @@
     </edge>
     <edge id="e2" source="n3" target="n0" sourceport="p0" targetport="p1">
       <data key="d9"><![CDATA[Direct]]></data>
-      <data key="d11" />
       <data key="d12" />
       <data key="d6" />
     </edge>
     <edge id="e3" source="n3" target="n2" sourceport="p1" targetport="p2">
       <data key="d9"><![CDATA[Transitive]]></data>
-      <data key="d11" />
       <data key="d12" />
       <data key="d6" />
     </edge>
