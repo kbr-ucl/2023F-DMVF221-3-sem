@@ -1,3 +1,5 @@
+using DependencyInjectionIntro;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IHelloService, HelloService>();
 var app = builder.Build();

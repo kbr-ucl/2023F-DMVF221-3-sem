@@ -1,3 +1,5 @@
+namespace DependencyInjectionIntro;
+
 public interface IHelloService
 {
     string SayHello();
