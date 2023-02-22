@@ -2,7 +2,7 @@
 Datamatiker - Vejle - 3. semester - Forår 2023 - Tools
 
 ## Visual Studio
-- Visual Studio 2022 versionen 17.5 Perview 6
+- Visual Studio 2022 version 17.6 Preview 1
 - .NET Core 7.0
 
 ## Visual Studio plug-in's
