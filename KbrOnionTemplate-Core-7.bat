@@ -1,8 +1,15 @@
+@echo off
 set /p "app=Enter application name: "
+rem echo Are You Sure?
+choice /c YN /M "Are You Sure?"
+if %errorlevel%==1 goto yes
+if %errorlevel%==2 goto no
+:yes
 echo Creating %app%
-pause 
+
 if not exist %app% mkdir %app%
 cd %app%
+
 rem dotnet new mvc -f net7.0 -au Individual -uld -o %app%.Mvc
 dotnet new webapi -f net7.0 -au None -o %app%.Api
 dotnet new classlib -f net7.0 -o %app%.Application
@@ -44,3 +51,4 @@ dotnet add %app%.Infrastructure/%app%.Infrastructure.csproj package AutoMapper.E
 dotnet add %app%.Infrastructure/%app%.Infrastructure.csproj package Microsoft.EntityFrameworkCore
 dotnet add %app%.Infrastructure/%app%.Infrastructure.csproj package Microsoft.EntityFrameworkCore.Relational
 pause
+:no
