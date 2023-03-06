@@ -13,6 +13,7 @@ Datamatiker - Vejle - 3. semester - Forår 2023 - Tools
 - Git Extensions
 	- [Git Extensions](https://github.com/gitextensions/gitextensions)
 	- [Git Extensions 4.0 Manual](https://git-extensions-documentation.readthedocs.io/en/release-4.0/index.html)
+	- [.NET Upgrade Assistant](https://devblogs.microsoft.com/dotnet/upgrade-assistant-now-in-visual-studio/)
 
 ## Azure
 - [Azure](https://portal.azure.com/#home)
