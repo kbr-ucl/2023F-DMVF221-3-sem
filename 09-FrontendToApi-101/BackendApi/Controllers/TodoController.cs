@@ -45,10 +45,18 @@ public class TodoController : ControllerBase
     [HttpPut]
     public async Task<IActionResult> PutTodo(TodoDto todo)
     {
-        _context.Todos.Persist(_mapper).InsertOrUpdate(todo);
+        var dbTodo = _mapper.Map<Todo>(todo);
+        _context.Update(dbTodo);
+        //_context.Todos.Persist(_mapper).InsertOrUpdate(todo);
 
-        await _context.SaveChangesAsync();
-
+        //try
+        //{
+            await _context.SaveChangesAsync();
+        //}
+        //catch(Exception e) 
+        //{
+        //    return BadRequest(e.Message);
+        //}
         return NoContent();
     }
 

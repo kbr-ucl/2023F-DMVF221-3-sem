@@ -1,0 +1,66 @@
+﻿@page
+@model RazorPageValidation.Pages.Book.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BookModel[0].SKU)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookModel[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookModel[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookModel[0].EmailRepeated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookModel[0].Url)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookModel[0].NumberOfReaders)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.BookModel) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SKU)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailRepeated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Url)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumberOfReaders)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ISBN">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ISBN">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ISBN">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

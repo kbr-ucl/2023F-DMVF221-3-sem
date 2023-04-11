@@ -32,8 +32,16 @@ public class EditModel : PageModel
     public async Task<IActionResult> OnPostAsync()
     {
         if (!ModelState.IsValid) return Page();
+        try
+        {
+            await _toDoService.EditAsync(Todo);
+        }
+        catch (Exception e)
+        {
+            ModelState.AddModelError("", e.Message);
+            return Page();
+        }
 
-        _toDoService.EditAsync(Todo);
 
         return RedirectToPage("./Index");
     }
