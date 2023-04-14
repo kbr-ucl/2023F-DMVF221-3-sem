@@ -14,9 +14,11 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     {
         options.SignIn.RequireConfirmedAccount = false;
         options.Lockout.AllowedForNewUsers = true;
-        options.Password.RequiredLength = 4;
+        options.Password.RequiredLength = 3;
         options.Password.RequireNonAlphanumeric = false;
         options.Password.RequireDigit = false;
+        options.Password.RequireLowercase = false;
+        options.Password.RequireUppercase = false;
     })
 .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddRazorPages();
