@@ -21,7 +21,18 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
         options.Password.RequireUppercase = false;
     })
 .AddEntityFrameworkStores<ApplicationDbContext>();
-builder.Services.AddRazorPages();
+
+builder.Services.AddAuthorization(options =>
+{
+    // ClaimType !!!
+    options.AddPolicy("AdminPolicy", policyBuider => policyBuider.RequireClaim("Admin"));
+});
+
+
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AuthorizeFolder("/Admin", "AdminPolicy");
+});
 
 var app = builder.Build();
 
