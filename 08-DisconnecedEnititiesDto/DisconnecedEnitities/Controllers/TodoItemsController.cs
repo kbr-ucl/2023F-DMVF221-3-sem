@@ -48,7 +48,7 @@ public class TodoItemsController : ControllerBase
         if (id != todo.Id) return BadRequest();
         // https://learn.microsoft.com/en-us/ef/core/saving/disconnected-entities
 
-        var model = _context.Todos.AsNoTracking().FirstOrDefault(a => a.Id == id);
+        var model = await _context.Todos.AsNoTracking().FirstOrDefaultAsync(a => a.Id == id);
         if (model == null) return BadRequest();
 
         model.IsComplete = todo.IsComplete;
